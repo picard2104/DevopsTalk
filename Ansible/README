@@ -24,3 +24,4 @@ sudo yum install ansible -y
 
 # Проверка версии
 ansible --version
+</details>

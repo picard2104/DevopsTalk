@@ -155,4 +155,3 @@ docker run -d \
 
 - [Официальная документация](https://docs.docker.com/) 📄
 - [Dockerfile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) 🏆
-- [Awesome Docker](https://github.com/veggiemonk/awesome-docker) 🌟

@@ -130,4 +130,4 @@ ansible-inventory --host server1
 ## 📚 Ресурсы
 - [Официальная документация](https://docs.ansible.com)
 - [Ansible Galaxy](https://galaxy.ansible.com)
-- [Шпаргалка PDF]([https://cdn.com/ansible-cheat-sheet.pdf](https://www.edureka.co/blog/wp-content/uploads/2018/11/Ansible-Cheat_Sheet_Edureka.pdf))
+- [Шпаргалка PDF]([https://www.edureka.co/blog/wp-content/uploads/2018/11/Ansible-Cheat_Sheet_Edureka.pdf])

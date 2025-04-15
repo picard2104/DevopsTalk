@@ -49,6 +49,18 @@ ansible db -m apt -a "name=nginx state=present" --become
 
 # Перезапуск сервиса
 ansible web -m service -a "name=nginx state=restarted"
+
+# Сбор всей информации о хосте
+ansible all -m setup
+
+# Использование модуля shell
+ansible all -m shell -a "ls -lah /etc"
+
+# Копирование файлов
+ansible all -m copy -a "src=/home/ubuntu/file dest=/home/ubuntu/file" -b #-b это sudo
+
+# Скачаивание из интернета
+ansible all -m get_url -a "url=https://example.com/file.txt dest=/home/ubuntu/file.txt" -b
 ```
 
 ---
